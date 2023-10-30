@@ -115,21 +115,21 @@ if __name__ == "__main__":
     brd.make_move("O", 6)
     brd.make_move("X", 2)
 
-   # assert brd.has_won("X") == True
-  #  assert brd.has_won("O") == False
-   # assert brd.game_over() == True
+    #assert brd.has_won("X") == True
+    #assert brd.has_won("O") == False
+    #assert brd.game_over() == True
 
     brd.clear()
 
-   # assert brd.game_over() == False
+    #assert brd.game_over() == False
 
     brd.make_move("O", 3)
     brd.make_move("O", 4)
     brd.make_move("O", 5)
 
-   # assert brd.has_won("X") == False
-   # assert brd.has_won("O") == True
-   # assert brd.game_over() == True
+    #assert brd.has_won("X") == False
+    #assert brd.has_won("O") == True
+    #assert brd.game_over() == True
 
     print("All tests passed!")
 
